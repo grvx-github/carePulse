@@ -15,7 +15,7 @@ CarePulse is a comprehensive patient management application that allows users to
 	- [Environment Variables](#environment-variables)
 		- [Contributing](#contributing)
 		- [License](#license)
-	- [Made with ❤️ by (Gaurav Jha)](#made-with-️-by-gaurav-jha)
+			- [Made with ❤️ by (Gaurav Jha)](#made-with-️-by-gaurav-jha)
 
 ## Features
 
@@ -43,7 +43,7 @@ To get a local copy up and running, follow these simple steps.
 
 ### Setup
 
-1. Clone the repository:
+1. #### Clone the repository:
 
    ```sh
    git clone https://github.com/yourusername/carepulse.git
@@ -51,20 +51,20 @@ To get a local copy up and running, follow these simple steps.
 
    ```
 
-2. Install dependencies
+2. #### Install dependencies
 
    ```sh
    	npm install
 
    ```
 
-3. Set up Firebase:
+3. #### Set up Firebase:
 
    - Create a Firebase project.
    - Add a new web app to your Firebase project.
    - Copy the Firebase config and add it to your environment variables.
 
-4. Set up Twilio:
+4. #### Set up Twilio:
 
    - Create a Twilio account and get your Account SID and Auth Token.
    - Purchase a Twilio phone number for sending SMS.
@@ -120,4 +120,4 @@ Contributions are what make the open-source community such an amazing place to l
 
 Distributed under the MIT License. See LICENSE for more information.
 
-## Made with ❤️ by ([Gaurav Jha](https://www.linkedin.com/in/grvx/))
+#### Made with ❤️ by ([Gaurav Jha](https://www.linkedin.com/in/grvx/))
