@@ -48,14 +48,12 @@ To get a local copy up and running, follow these simple steps.
    ```sh
    git clone https://github.com/yourusername/carepulse.git
    cd carepulse
-
    ```
 
 2. #### Install dependencies
 
    ```sh
-   	npm install
-
+   npm install
    ```
 
 3. #### Set up Firebase:
