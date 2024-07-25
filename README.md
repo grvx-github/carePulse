@@ -1,3 +1,6 @@
+![CarePulse](/public/assets/images/readme.png)
+
+
 # CarePulse
 
 CarePulse is a comprehensive patient management application that allows users to register as patients, book appointments with doctors, and receive real-time SMS notifications about updates. The backend admin system provides functionalities to monitor, schedule, and cancel appointments. This project leverages Next.js, Tailwind CSS, TypeScript, and Firebase for a robust and scalable solution.
