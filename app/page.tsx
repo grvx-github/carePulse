@@ -16,6 +16,7 @@ export default function Home({ searchParams }: SearchParamProps) {
             src={"/assets/icons/logo-full.svg"}
             height={1000}
             width={1000}
+            priority
             alt="patient"
             className="mb-12 h-10 w-fit"
           />

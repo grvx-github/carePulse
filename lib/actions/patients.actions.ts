@@ -22,12 +22,15 @@ export const createUser = async (userData: CreateUserParams) => {
 
     if (!querySnapshot.empty) {
       // User already exists, return the existing user
-      const existingUser = querySnapshot.docs[0].data()
+      const existingUserDoc = querySnapshot.docs[0]
+      const existingUser = { id: existingUserDoc.id, ...existingUserDoc.data() }
       return existingUser
     }
 
     // User does not exist, create a new user
     const docRef = await addDoc(usersRef, userData)
+    console.log(docRef)
+
     return { id: docRef.id, ...userData }
   } catch (e) {
     console.error("Error adding document: ", e)
